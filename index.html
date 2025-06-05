@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KTU Grade Analyzer 2024</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="app.js" />
+</head>
+<body>
+  <div class="container">
+    <h1>KTU Compass – CIE to ESE Success Tool (2024 Scheme)</h1>
+
+    <h2>1. Final Exam Target Score Calculator</h2>
+    <label>Enter Internal Marks (out of 40):</label>
+    <input type="number" id="cie" max="40" />
+    <button onclick="calculateTarget()">Calculate Required ESE Marks</button>
+    <div id="targetResult" class="result"></div>
+
+    <h2>2. Risk Assessment</h2>
+    <button onclick="assessRisk()">Check Risk Level</button>
+    <div id="riskResult" class="result"></div>
+
+    <h2>3. What-If Analyzer</h2>
+    <label>Hypothetical ESE Marks (out of 60):</label>
+    <input type="number" id="hypotheticalESE" max="60" />
+    <button onclick="whatIf()">Check Grade</button>
+    <div id="whatIfResult" class="result"></div>
+  </div>
+
+  <script src="app.js" />
+</body>
+</html>
