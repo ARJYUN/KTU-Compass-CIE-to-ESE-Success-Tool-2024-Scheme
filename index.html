@@ -3,30 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KTU Grade Analyzer 2024</title>
+  <title>KTU Compass</title>
   <link href="style.css" rel="stylesheet">
   <script src="app.js" />
 </head>
 <body>
+  <div class="container" id="headder">
+    <h1>KTU Compass – CIE to ESE Success Tool </h1>
+    <p>Your Academic Navigator For The 2024 Scheme</p>
+  </div>
   <div class="container">
-    <h1>KTU Compass – CIE to ESE Success Tool (2024 Scheme)</h1>
-
     <h2>1. Final Exam Target Score Calculator</h2>
     <label>Enter Internal Marks (out of 40):</label>
+    <div class="hed">
     <input type="number" id="cie" max="40" />
+    </div>
     <button onclick="calculateTarget()">Calculate Required ESE Marks</button>
     <div id="targetResult" class="result"></div>
+
+  </div>
+  <div class="container">
 
     <h2>2. Risk Assessment</h2>
     <button onclick="assessRisk()">Check Risk Level</button>
     <div id="riskResult" class="result"></div>
 
+  </div>
+  <div class="container">
+
     <h2>3. What-If Analyzer</h2>
     <label>Hypothetical ESE Marks (out of 60):</label>
+    <div class="hed">
     <input type="number" id="hypotheticalESE" max="60" />
+    </div>
     <button onclick="whatIf()">Check Grade</button>
     <div id="whatIfResult" class="result"></div>
   </div>
+
+  <footer>
+    &copy; 2025 KTU Compass | Built for KTU students, by <a href="https://github.com/ARJYUN" target="_blank">ARJYUN</a>
+  </footer>
 
 </body>
 </html>
