@@ -1,4 +1,4 @@
-## 🎓 KTU Grade Analyzer (2024 Scheme)
+## 🎓 KTU Compass-CIE to ESE Success Tool (2024 Scheme)
 
 A smart, interactive web application designed to help **APJ Abdul Kalam Technological University (KTU)** students under the **2024 scheme** analyze, plan, and improve their academic performance.
 
@@ -50,7 +50,7 @@ A smart, interactive web application designed to help **APJ Abdul Kalam Technolo
    * See the required ESE marks.
    * Check pass/fail risk.
    * Analyze your grade from a hypothetical ESE mark.
-5. You can also access the live website directly [here](https://arjyun.github.io/KTU-Compass-CIE-to-ESE-Success-Tool-2024-Scheme-/).
+5. You can also access the live website directly [here](https://arjyun.github.io/KTU-Compass-CIE-to-ESE-Success-Tool-2024-Scheme/).
 
 ---
 
