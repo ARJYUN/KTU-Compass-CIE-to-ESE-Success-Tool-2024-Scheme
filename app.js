@@ -1,5 +1,5 @@
  const gradeBoundaries = [
-      { grade: 'O', min: 90 },
+      { grade: 'S', min: 90 },
       { grade: 'A+', min: 85 },
       { grade: 'A', min: 80 },
       { grade: 'B+', min: 70 },
