@@ -18,7 +18,7 @@
         return;
       }
 
-      let result = `<strong>To Pass:</strong> ${Math.max(24, 45 - cie)} marks in ESE<br/><br/>`;
+      let result = `<strong>To Pass:</strong> ${cie<21?45-cie:24} marks in ESE<br/><br/>`;
       gradeBoundaries.forEach(b => {
         const needed = b.min - cie;
         if (needed <= 60) {
