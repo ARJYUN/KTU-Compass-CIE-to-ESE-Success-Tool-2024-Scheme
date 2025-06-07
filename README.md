@@ -73,8 +73,8 @@ A smart, interactive web application designed to help **APJ Abdul Kalam Technolo
 
 ### 👨‍💻 Developed By
 
-Arjun K 
-B.Tech CSE Student | NSSCE
+Arjun K <br>
+B.Tech CSE Student | NSSCE <br>
 Inspired by real student needs under KTU’s 2024 curriculum pattern.
 
 ---
