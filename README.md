@@ -21,7 +21,7 @@ A smart, interactive web application designed to help **APJ Abdul Kalam Technolo
 
 | Grade | Minimum Total Marks  |
 | ----- | -------------------- |
-| O     | 90                   |
+| S     | 90                   |
 | A+    | 85                   |
 | A     | 80                   |
 | B+    | 70                   |
